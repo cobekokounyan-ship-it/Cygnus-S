@@ -78,10 +78,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1                &kp NUMBER_2     &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5                                     &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
-&kp LS(NUMBER_1)            &kp LEFT_BRACE   &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &trans         &kp UNDERSCORE  &kp EQUAL     &kp LS(NUMBER_6)  &kp LS(APOS)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2   &kp KP_NUMBER_3   &kp PERIOD        &kp EQUAL      &trans          &kp PERIOD    &kp EQUAL         &kp SLASH     &kp RIGHT_BRACE   &kp BACKSLASH
-&trans                      &trans           &trans            &trans            &trans            &trans         &trans          &trans                                                          &trans
+&kp NUMBER_1      &kp NUMBER_2    &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5                                     &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0
+&kp LS(NUMBER_1)  &kp LEFT_BRACE  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &trans         &kp UNDERSCORE  &kp EQUAL     &kp LS(NUMBER_6)  &kp LS(APOS)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)
+&kp SEMI          &kp APOSTROPHE  &kp LS(SEMI)      &kp MINUS         &kp PERIOD        &kp EQUAL      &trans          &kp PERIOD    &kp EQUAL         &kp SLASH     &kp RIGHT_BRACE   &kp BACKSLASH
+&trans            &trans          &trans            &trans            &trans            &trans         &trans          &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
